@@ -6,31 +6,44 @@
     <link rel="stylesheet" href="build/tailwind.css" />
     <title>learning tailwind</title>
   </head>
-  <body class="bg-gray-100">
-    <div class="px-8 py-12">
-      <img src="build/img/logo.svg" alt="logo" class="h-10" />
-      <img
-        src="build/img/work-remote.jpg"
-        alt="working remotely"
-        class="mt-6 rounded-lg shadow-xl"
-      />
-      <h1 class="text-2xl font-bold mt-6 leading-tight text-gray-900">
-        you can work from anywhere by taking advantage of<span
-          class="text-indigo-500"
-        >
-          workcation.</span
-        >
-      </h1>
-      <p class="mt-2 text-gray-700">
-        you can enjoy your freedom travel anywhere become a digital nomad.
-      </p>
+  <body class="bg-gray-500">
+    <div class="flex bg-gray-100">
+      <div
+        class="lg:py-24 lg:px-12 px-8 py-12 max-w-md mx-auto sm:max-w-xl lg: w-1/2 lg:max-w-full"
+      >
+        <div class="xl:max-w-lg xl:mx-auto">
+          <img src="build/img/logo.svg" alt="logo" class="h-10" />
+          <img
+            src="build/img/work-remote.jpg"
+            alt="working remotely"
+            class="lg:hidden mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full object-cover object-center"
+          />
+          <h1
+            class="text-2xl font-bold mt-6 leading-tight text-gray-900 sm:text-4xl xl:text-4xl"
+          >
+            You can work from anywhere by taking advantage of
+            <br />
+            <span class="text-indigo-500"> workcation.</span>
+          </h1>
+          <p class="mt-2 text-gray-700 sm:text-xl sm:mt-4">
+            you can enjoy your freedom travel anywhere become a digital nomad.
+          </p>
 
-      <div class="mt-4">
-        <a
-          href="#"
-          class="bg-indigo-500 text-white uppercase py-2 px-4 rounded-lg shadow-xl tracking-wider inline-block font-semibold"
-          >Book your escape</a
-        >
+          <div class="mt-4 sm:mt-6">
+            <a
+              href="#"
+              class="bg-indigo-500 text-white uppercase py-2 px-4 rounded-lg shadow-xl tracking-wider inline-block font-semibold sm:text-base"
+              >Book your escape</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block lg:w-1/2 relative">
+        <img
+          src="build/img/work-remote.jpg"
+          alt="working remotely"
+          class="object-cover object-center absolute w-full h-full"
+        />
       </div>
     </div>
   </body>
