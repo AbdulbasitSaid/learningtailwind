@@ -4,12 +4,14 @@
   "description": "just a pet project to learn tailwind css",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
   "author": "Abdulbasit",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
     "postcss-cli": "^8.2.0",
     "tailwindcss": "^1.9.6"
   }
